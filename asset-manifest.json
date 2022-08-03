@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/35829od/static/css/main.e6a0c3d1.css",
+    "main.js": "/35829od/static/js/main.04162f55.js",
+    "static/js/787.9c29134c.chunk.js": "/35829od/static/js/787.9c29134c.chunk.js",
+    "static/media/BackgroundFace.png": "/35829od/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
+    "static/media/mongomon_baby_wrapper.png": "/35829od/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
+    "static/media/loading.mp4": "/35829od/static/media/loading.c30b0610e98aa65ff973.mp4",
+    "static/media/Roadmap.png": "/35829od/static/media/Roadmap.d2f7ae5470545a0a28f3.png",
+    "static/media/Team.png": "/35829od/static/media/Team.f8df7c0840ecf982c35b.png",
+    "static/media/MontserratAlternates-Bold.ttf": "/35829od/static/media/MontserratAlternates-Bold.104814841470be32b52f.ttf",
+    "static/media/MontserratAlternates-Medium.ttf": "/35829od/static/media/MontserratAlternates-Medium.ae41054b33bf901739c8.ttf",
+    "static/media/Noah.ttf": "/35829od/static/media/Noah.8299c893af8aa87b74f0.ttf",
+    "static/media/flower_1.png": "/35829od/static/media/flower_1.2d9513a9e5c120e188fd.png",
+    "static/media/Lian-topright.png": "/35829od/static/media/Lian-topright.18599465aaa85d7c1704.png",
+    "static/media/Gen2.png": "/35829od/static/media/Gen2.ebb903ea5c72e423c297.png",
+    "static/media/Lian-topleft.png": "/35829od/static/media/Lian-topleft.5c340253bfcb6cf2aafa.png",
+    "static/media/Lian-botleft.png": "/35829od/static/media/Lian-botleft.c1ac8605c5ce86981898.png",
+    "static/media/Dreamworks.png": "/35829od/static/media/Dreamworks.2e9343e3e2f40bdf474b.png",
+    "static/media/Ubisoft.png": "/35829od/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
+    "index.html": "/35829od/index.html",
+    "main.e6a0c3d1.css.map": "/35829od/static/css/main.e6a0c3d1.css.map",
+    "main.04162f55.js.map": "/35829od/static/js/main.04162f55.js.map",
+    "787.9c29134c.chunk.js.map": "/35829od/static/js/787.9c29134c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6a0c3d1.css",
+    "static/js/main.04162f55.js"
+  ]
+}
