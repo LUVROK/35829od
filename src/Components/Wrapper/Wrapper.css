@@ -1,0 +1,316 @@
+.Wrapper{
+    height: 200vh;
+    position: relative;
+}
+.Wrapper_first_section {
+    height: 100vh;
+    position: relative;
+    
+}
+.Wrapper_second_section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.056) 0%, rgba(255, 255, 255, 0.025) 19.92%, rgba(255, 255, 255, 0) 11.21%); */
+}
+.shadowBlock_secondSection {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 355px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.348) 0%, rgba(255, 255, 255, 0.176) 19.92%, rgba(255, 255, 255, 0) 67.65%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+}
+.beautiful_pink_block {
+    width: 1330px;
+    height: 70%;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.beautiful_pink_block::before {
+    border: 3px solid #FFFFFF;
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #B479FF;
+    mix-blend-mode: overlay;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.beautiful_pink_block_introductory {
+    margin-top: 8%;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    z-index: 1;
+    width: 1092px;
+
+}
+.colorMongoMons {
+    color: #FE7878;
+}
+.beautiful_pink_block_text1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 57px;
+    width: 90%;   
+    z-index: 1;
+
+}
+.beautiful_pink_block_text2 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 17px;
+    width: 90%;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+}
+.Wrapper_sect{
+    background: url("../../images/BackgroundFace.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.Wrapper_text{
+    font-size: 120px;
+    position: relative;
+    top: 2vw;
+    font-weight: bold;
+    display: flex;
+}
+.mint_now_block{
+    position: relative;
+    top: 100px;
+}
+.mint_now{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #FE7878;
+    background: white;
+    border-radius: 4px;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 0px 14px 12px rgba(34, 60, 80, 0.31);
+    -moz-box-shadow: 0px 0px 14px 12px rgba(34, 60, 80, 0.31);
+    box-shadow: 0px 0px 14px 12px rgba(34, 60, 80, 0.31);
+}
+.Wrapper_text_red{
+    color: #FE7878;
+}
+.mongo_ava{
+    width: 58%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform:translate(-50%, 0%);
+}
+.minus{
+    display: none;
+}
+.flex_badis{
+    display: flex;
+    justify-content: center;
+}
+.header_bottom{
+    position: absolute;
+    bottom: 30px;
+    right: 0%;
+    z-index: 999;
+}
+.header{
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+.links:hover{
+    cursor: pointer !important;
+}
+.links svg:hover{
+    fill: black;
+}
+@media (max-width: 1380px) {
+    .beautiful_pink_block {
+        width: 1010px;
+        height: 80%;
+    }
+    .beautiful_pink_block_introductory {
+        width: 920px;
+        font-size: 42px;
+    }
+    .beautiful_pink_block_text1 {
+        font-size: 24px;
+    }
+    .beautiful_pink_block_text2 {
+        font-size: 24px;
+    }
+    .beautiful_pink_block {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 1020px) {
+    .Wrapper_text{
+        font-size: 85px;
+        position: relative;
+        top: 15vw;
+        font-weight: bold;
+    }
+    .mongo_ava{
+        position: absolute;
+        left:50%;
+        bottom: 0;
+        transform:translate(-50%, 0%);
+    }
+    .mint_now_block{
+        position: relative;
+        top: 250px;
+    }
+    .beautiful_pink_block_introductory {
+        width: 640px;
+        font-size: 38px;
+    }
+    .beautiful_pink_block_text1 {
+        font-size: 20px;
+    }
+    .beautiful_pink_block_text2 {
+        font-size: 20px;
+    }
+    .beautiful_pink_block {
+        width: 730px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width: 740px) {
+    .header_bottom{
+        position: absolute;
+        top: 30px;
+        right: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .header{
+        opacity: 0.5;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .minus{
+        display: flex;
+    }
+    .Wrapper_text{
+        font-size: 85px;
+        position: relative;
+        top: 110px;
+        flex-direction: column;
+        font-weight: bold;
+        line-height: 80px;
+    }
+    .mongo_ava{
+        width: 76%;
+        position: absolute;
+        left:50%;
+        bottom: 0;
+        transform:translate(-50%, 0%);
+    }
+    .mint_now_block{
+        position: relative;
+        top: 200px;
+    }
+    .beautiful_pink_block_introductory {
+        width: 395px;
+        font-size: 36px;
+    }
+    .beautiful_pink_block_text1 {
+        font-size: 18px;
+    }
+    .beautiful_pink_block_text2 {
+        font-size: 18px;
+    }
+    .beautiful_pink_block {
+        width: 90%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 495px) {
+    .Wrapper{
+        height: 200vh;
+    }
+    .Wrapper_text{
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .header_bottom{
+        position: absolute;
+        right: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .beautiful_pink_block_introductory {
+        width: 290px;
+        font-size: 32px;
+    }
+    .beautiful_pink_block_text1 {
+        font-size: 16px;
+    }
+    .beautiful_pink_block_text2 {
+        font-size: 16px;
+    }
+    .beautiful_pink_block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 390px) {
+    .beautiful_pink_block_introductory {
+        font-size: 28px;
+        width: 100%;
+    }
+    .beautiful_pink_block_text1 {
+        font-size: 14px;
+    }
+    .beautiful_pink_block_text2 {
+        font-size: 14px;
+    }
+    .beautiful_pink_block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.limk_svg{
+    fill: #ffffff;
+    transition: 0.8s;
+}
+.limk_svg:hover{
+    fill: #cbc3c3;
+}
+@media (max-width: 395px) {
+    .mongo_ava{
+        width: 90%;
+    }
+}
