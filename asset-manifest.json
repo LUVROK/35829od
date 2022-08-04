@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/35829od/static/css/main.3e710e1a.css",
-    "main.js": "/35829od/static/js/main.d4fd7269.js",
+    "main.css": "/35829od/static/css/main.92262f7f.css",
+    "main.js": "/35829od/static/js/main.629c2ed8.js",
     "static/js/787.9c29134c.chunk.js": "/35829od/static/js/787.9c29134c.chunk.js",
     "static/media/BackgroundFace.png": "/35829od/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
     "static/media/mongomon_baby_wrapper.png": "/35829od/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
@@ -19,12 +19,12 @@
     "static/media/Dreamworks.png": "/35829od/static/media/Dreamworks.2e9343e3e2f40bdf474b.png",
     "static/media/Ubisoft.png": "/35829od/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
     "index.html": "/35829od/index.html",
-    "main.3e710e1a.css.map": "/35829od/static/css/main.3e710e1a.css.map",
-    "main.d4fd7269.js.map": "/35829od/static/js/main.d4fd7269.js.map",
+    "main.92262f7f.css.map": "/35829od/static/css/main.92262f7f.css.map",
+    "main.629c2ed8.js.map": "/35829od/static/js/main.629c2ed8.js.map",
     "787.9c29134c.chunk.js.map": "/35829od/static/js/787.9c29134c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e710e1a.css",
-    "static/js/main.d4fd7269.js"
+    "static/css/main.92262f7f.css",
+    "static/js/main.629c2ed8.js"
   ]
 }
