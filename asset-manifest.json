@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/35829od/static/css/main.c16bac39.css",
-    "main.js": "/35829od/static/js/main.6c00aa7f.js",
+    "main.css": "/35829od/static/css/main.3e710e1a.css",
+    "main.js": "/35829od/static/js/main.d4fd7269.js",
     "static/js/787.9c29134c.chunk.js": "/35829od/static/js/787.9c29134c.chunk.js",
     "static/media/BackgroundFace.png": "/35829od/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
     "static/media/mongomon_baby_wrapper.png": "/35829od/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
@@ -11,20 +11,20 @@
     "static/media/MontserratAlternates-Bold.ttf": "/35829od/static/media/MontserratAlternates-Bold.104814841470be32b52f.ttf",
     "static/media/MontserratAlternates-Medium.ttf": "/35829od/static/media/MontserratAlternates-Medium.ae41054b33bf901739c8.ttf",
     "static/media/Noah.ttf": "/35829od/static/media/Noah.8299c893af8aa87b74f0.ttf",
+    "static/media/vine_1.png": "/35829od/static/media/vine_1.fc5eab8e5712900c390a.png",
     "static/media/flower_1.png": "/35829od/static/media/flower_1.2d9513a9e5c120e188fd.png",
-    "static/media/Lian-topright.png": "/35829od/static/media/Lian-topright.18599465aaa85d7c1704.png",
+    "static/media/vine_2.png": "/35829od/static/media/vine_2.c417f694019056c7a70a.png",
     "static/media/Gen2.png": "/35829od/static/media/Gen2.ebb903ea5c72e423c297.png",
-    "static/media/Lian-topleft.png": "/35829od/static/media/Lian-topleft.5c340253bfcb6cf2aafa.png",
     "static/media/Lian-botleft.png": "/35829od/static/media/Lian-botleft.c1ac8605c5ce86981898.png",
     "static/media/Dreamworks.png": "/35829od/static/media/Dreamworks.2e9343e3e2f40bdf474b.png",
     "static/media/Ubisoft.png": "/35829od/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
     "index.html": "/35829od/index.html",
-    "main.c16bac39.css.map": "/35829od/static/css/main.c16bac39.css.map",
-    "main.6c00aa7f.js.map": "/35829od/static/js/main.6c00aa7f.js.map",
+    "main.3e710e1a.css.map": "/35829od/static/css/main.3e710e1a.css.map",
+    "main.d4fd7269.js.map": "/35829od/static/js/main.d4fd7269.js.map",
     "787.9c29134c.chunk.js.map": "/35829od/static/js/787.9c29134c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c16bac39.css",
-    "static/js/main.6c00aa7f.js"
+    "static/css/main.3e710e1a.css",
+    "static/js/main.d4fd7269.js"
   ]
 }
