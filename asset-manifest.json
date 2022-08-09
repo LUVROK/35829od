@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/35829od/static/css/main.f9a0e0e9.css",
-    "main.js": "/35829od/static/js/main.71d2da17.js",
+    "main.css": "/35829od/static/css/main.10f83f77.css",
+    "main.js": "/35829od/static/js/main.edd35bd7.js",
     "static/js/787.9c29134c.chunk.js": "/35829od/static/js/787.9c29134c.chunk.js",
     "static/media/BackgroundFace.png": "/35829od/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
     "static/media/mongomon_baby_wrapper.png": "/35829od/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
     "static/media/loading.mp4": "/35829od/static/media/loading.c30b0610e98aa65ff973.mp4",
-    "static/media/babyMong1.png": "/35829od/static/media/babyMong1.9b9cb5c4ed2d5a1a54c6.png",
     "static/media/Roadmap.png": "/35829od/static/media/Roadmap.d2f7ae5470545a0a28f3.png",
     "static/media/Team.png": "/35829od/static/media/Team.f8df7c0840ecf982c35b.png",
     "static/media/MontserratAlternates-Bold.ttf": "/35829od/static/media/MontserratAlternates-Bold.104814841470be32b52f.ttf",
     "static/media/MontserratAlternates-Medium.ttf": "/35829od/static/media/MontserratAlternates-Medium.ae41054b33bf901739c8.ttf",
     "static/media/Noah.ttf": "/35829od/static/media/Noah.8299c893af8aa87b74f0.ttf",
-    "static/media/babyMong4.jpg": "/35829od/static/media/babyMong4.2db026080b0870c41b16.jpg",
-    "static/media/babyMong2.jpg": "/35829od/static/media/babyMong2.769ab358ec21e1a790cc.jpg",
-    "static/media/babyMong5.jpg": "/35829od/static/media/babyMong5.52726b0efcaa504125ce.jpg",
-    "static/media/babyMong6.jpg": "/35829od/static/media/babyMong6.e7efe6e1ebdd2a7375d4.jpg",
-    "static/media/babyMong3.jpg": "/35829od/static/media/babyMong3.43b43695b7f3d8b5154e.jpg",
     "static/media/vine_1.png": "/35829od/static/media/vine_1.fc5eab8e5712900c390a.png",
     "static/media/flower_1.png": "/35829od/static/media/flower_1.2d9513a9e5c120e188fd.png",
     "static/media/vine_2.png": "/35829od/static/media/vine_2.c417f694019056c7a70a.png",
@@ -25,12 +19,12 @@
     "static/media/Dreamworks.png": "/35829od/static/media/Dreamworks.2e9343e3e2f40bdf474b.png",
     "static/media/Ubisoft.png": "/35829od/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
     "index.html": "/35829od/index.html",
-    "main.f9a0e0e9.css.map": "/35829od/static/css/main.f9a0e0e9.css.map",
-    "main.71d2da17.js.map": "/35829od/static/js/main.71d2da17.js.map",
+    "main.10f83f77.css.map": "/35829od/static/css/main.10f83f77.css.map",
+    "main.edd35bd7.js.map": "/35829od/static/js/main.edd35bd7.js.map",
     "787.9c29134c.chunk.js.map": "/35829od/static/js/787.9c29134c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9a0e0e9.css",
-    "static/js/main.71d2da17.js"
+    "static/css/main.10f83f77.css",
+    "static/js/main.edd35bd7.js"
   ]
 }
