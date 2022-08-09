@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/35829od/static/css/main.10f83f77.css",
-    "main.js": "/35829od/static/js/main.edd35bd7.js",
+    "main.js": "/35829od/static/js/main.de3fb2a6.js",
     "static/js/787.9c29134c.chunk.js": "/35829od/static/js/787.9c29134c.chunk.js",
     "static/media/BackgroundFace.png": "/35829od/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
     "static/media/mongomon_baby_wrapper.png": "/35829od/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
@@ -20,11 +20,11 @@
     "static/media/Ubisoft.png": "/35829od/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
     "index.html": "/35829od/index.html",
     "main.10f83f77.css.map": "/35829od/static/css/main.10f83f77.css.map",
-    "main.edd35bd7.js.map": "/35829od/static/js/main.edd35bd7.js.map",
+    "main.de3fb2a6.js.map": "/35829od/static/js/main.de3fb2a6.js.map",
     "787.9c29134c.chunk.js.map": "/35829od/static/js/787.9c29134c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10f83f77.css",
-    "static/js/main.edd35bd7.js"
+    "static/js/main.de3fb2a6.js"
   ]
 }
