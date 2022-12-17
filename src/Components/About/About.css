@@ -27,8 +27,13 @@
     right: 0;
     bottom: 0;
 }
+.About_text_block {
+    display: flex;
+    justify-content: center;
+}
 .About_text{
     padding-top: 90px;
+    width: 80%;
 }
 .About_text_h1{
     font-size: 56px;
@@ -63,10 +68,10 @@
         top: 0;
     }
     .botleft{
-        width: 45vw;
+        width: 75vw;
     }
     .botright{
-        width: 25vw;
+        width: 45vw;
     }
     .About_text_p{
         margin-top: 55px;

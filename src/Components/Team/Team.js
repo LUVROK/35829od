@@ -7,13 +7,14 @@ const Team = () => {
 
     return (
         <div className="team">
-            <div className="team__wrap">
-                <div animateIn="animate__fadeIn" animateOnce={true} className="team_h1">
+            <div className="team__wrap ">
+                <div animateIn="c" animateOnce={true} className="team_h1">
                     The Team
                 </div>
                 <div className="team__container">
                     <div animateIn="animate__fadeInLeft" animateOnce={true} className="team__container__item">
-                        <div className="profile_photo Eugene">
+                        <div className="profile_photo">
+                            <div className='Eugene'></div>
                         </div>
                         <h2 className="team_card_Title">
                             Alex<br />
@@ -21,7 +22,8 @@ const Team = () => {
                         </h2>
                     </div>
                     <div animateIn="animate__fadeIn" animateOnce={true} className="team__container__item">
-                        <div className="profile_photo Andrey">
+                        <div className="profile_photo">
+                            <div className='Andrey'></div>
                         </div>
                         <h2 className="team_card_Title">
                             Andrew<br />
@@ -29,7 +31,8 @@ const Team = () => {
                         </h2>
                     </div>
                     <div animateIn="animate__fadeInRight" animateOnce={true} className="team__container__item">
-                        <div className="profile_photo Nikita">
+                        <div className="profile_photo">
+                            <div className='Nikita'></div>
                         </div>
                         <h2 className="team_card_Title">
                             Max<br />
@@ -39,7 +42,8 @@ const Team = () => {
                 </div>
                 <div className="team__container secrow">
                     <div animateIn="animate__fadeInLeft" animateOnce={true} className="team__container__item">
-                        <div className="profile_photo Anton">
+                        <div className="profile_photo">
+                            <div className='Anton'></div>
                         </div>
                         <h2 className="team_card_Title">
                             Arthurr<br />
@@ -47,7 +51,8 @@ const Team = () => {
                         </h2>
                     </div>
                     <div animateIn="animate__fadeIn" animateOnce={true} className="team__container__item">
-                        <div className="profile_photo RTZ">
+                        <div className="profile_photo">
+                            <div className='RTZ'></div>
                         </div>
                         <h2 className="team_card_Title">
                             Antony<br />

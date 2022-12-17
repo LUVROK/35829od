@@ -1,19 +1,19 @@
 import './About.css';
 import React from "react";
-import topleft from "../../images/Lian-topleft.png";
+// import topleft from "../../images/Lian-topleft.png";
 import botright from "../../images/Lian-botright.png";
 import botleft from "../../images/Lian-botleft.png";
-import topright from "../../images/Lian-topright.png";
+// import topright from "../../images/Lian-topright.png";
 import Galery from "../Galery/Galery";
 function About() {
     return (
 
         <div className="About sect">
-            <img src={topleft} alt="" className="topleft"/>
-            <img src={topright} alt="" className="topright"/>
+            {/* <img src={topleft} alt="" className="topleft"/>
+            <img src={topright} alt="" className="topright"/> */}
             <img src={botleft} alt="" className="botleft"/>
             <img src={botright} alt="" className="botright"/>
-            <div className="block">
+            <div className="block About_text_block">
                 <div className="About_text">
                     <h1 className="About_text_h1">
                         Who are <br></br><span className="vilet">MONGOMONS</span>?

@@ -4,7 +4,7 @@ import wrapvideo from "../../images/loading.mp4";
 const Preloader= () => {
     useEffect(() => {
         setInterval(() => {
-            document.getElementById("preloader").style="opacity: 0 !important;";
+            // document.getElementById("preloader").style="opacity: 0 !important;";
         }, 1800);
     }, []);
     return (<div className="preloader">

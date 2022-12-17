@@ -10,7 +10,6 @@
     padding-top: 0px;
     /* padding-bottom: 30px; */
     font-family: 'Raleway', sans-serif;
-
 }
 .faq_h1{
     padding-top: 52px;
@@ -76,31 +75,35 @@ summary::marker{
 }
 .row-content{
     margin: 10px 0;
+    margin-top: -20px;
 }
 .row-content-text{
     text-align: left;
     background: #E38B2B;
-    padding: 20px 40px !important;
-    border-radius: 20px;
-    width: 90%;
+    padding: 20px 30px !important;
+    /* width: 900px; */
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
     margin: 0 auto;
     font-size: 20px !important;
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
+    border-bottom: 5px solid #68516D;
     /* line-height: 193.4%; */
 }
 .icon-wrapper {
-    top: auto !important;
+    top: 25px !important;
     right: 2% !important;
     font-size: 42px !important;
+    font-size: 28px;
 }
 .faq-row {
-    border-bottom: 0px solid #362c36 !important;
+    border-bottom: 0px solid #68516D !important;
     /* padding-bottom: 15px !important; */
     /* border: 0 !important; */
     border-radius: 18px !important;
-    background-color: #68516D !important;
+    /* background-color: #68516D !important; */
     /* margin-bottom: 20px !important; */
 }
 .styles_icon-wrapper__2cftw {
@@ -108,10 +111,24 @@ summary::marker{
 }
 .row-title {
     /* background-color: #E38B2B !important; */
-    padding: 10px !important;
+    background-color: #E38B2B !important;
+    margin: 10px !important;
+    /* border-radius: 20px; */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    border-radius: 20px;
+    margin-bottom: 0px !important;
+    z-index: 2;
 }
+/* .faq-row .row-title:active {
+    background-color: #68516D !important;
+}
+.faq-row .row-title:active .row-content-text {
+    background-color: #68516D !important;
+} */
 .row-title-text{
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 20px;
     font-size: 20px;
     font-family: 'Montserrat Alternates';
@@ -119,12 +136,17 @@ summary::marker{
     font-weight: 700;
     font-size: 24px;
     line-height: 93.4%;
+    z-index: 1;
 }
 .faq-body{
     border-radius: 20px;
+    padding: 2px;
+    padding-bottom: 22px;
+    background-color: #E38B2B !important;
+
 }
-.icon-wrapper{
-    font-size: 28px;
+.styles_faq-row__2YF3c {
+    padding: 0px !important;
 }
 .row-content-tex{
     font-size: 28px;
@@ -132,20 +154,67 @@ summary::marker{
 .faq-row-wrapper{
     border-radius: 20px !important;
     --faq-bg-color: #68516D !important;
-
+    padding: 10px;
+    margin-bottom: 15px;
+}
+/* @media (max-width: 1680px) {
+    .row-content-text{
+        width: 1240px;
+    }
+}
+@media (max-width: 1380px) {
+    .row-content-text{
+        width: 1160px;
+    }
+}
+@media (max-width: 1300px) {
+    .row-content-text{
+        width: 880px;
+    }
+} */
+@media (max-width: 1020px) {
+    .team__wrap1 {
+        width: 720px !important;
+    }
+}
+@media (max-width: 740px) {
+    /* .row-content-text{
+        width: 355px;
+    } */
+    .team__wrap1 {
+        width: 450px !important;
+    }
 }
 @media (max-width: 495px) {
     .row-content-text{
+        width: auto;
+        padding: 0px !important;
         /* padding: 5px !important; */
+        margin: 0px 10px !important;
         font-size: 20px !important;
+        padding: 12px !important;
     }
     .row-title-text{
         padding-right: 0 !important;
     }
+    .team__wrap1 {
+        width: 345px !important;
+    }
 }
 
-.team__wrap {
+@media (max-width: 395px) {
+    .team__wrap1 {
+        width: 275px !important;
+    }
+}
+
+.team__wrap1 {
     margin-bottom: 40px !important;
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');

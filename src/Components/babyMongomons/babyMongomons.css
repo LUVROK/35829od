@@ -1,0 +1,332 @@
+.babyMongomons {
+    width: 100%;
+    height: 100vh;
+    background-color: #FDBB74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_babyMongomons{
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    background-position: 70px -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.block_babyMongomons__content{
+    /* height: 100%; */
+    width: 1510px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.block_babyMongomons_body{
+    height: 688px;
+    width: 100%;
+    position: relative;
+}
+.content_body_babyMongomons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.button_left{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0%;
+    top: 0px;
+    cursor: pointer;
+    z-index: 100;
+    /* transform: translate(-170px,0px); */
+    outline: none;
+}
+.button_right{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 100;
+    outline: none;
+}
+.babyMongomons_block_one{
+    position: relative;
+    /* height: 469px; */
+    width: 30%;
+    border-radius: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 1.3s, width 1.3s, height 1.3s, background-color 1.3s, transform 1.3s, left 1.3s;
+    outline: none;
+    z-index: 1;
+    order: 1;
+}
+.babyMongomons_block_one.one{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+}
+.babyMongomons_block_one.two{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+
+}
+.babyMongomons_block_one.three{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+
+}
+.babyMongomons_block_one.four{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+
+}
+.babyMongomons_block_one_img_four{
+    position: absolute;
+    z-index: 1;
+
+}
+.babyMongomons_block_one.five{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+
+}
+.babyMongomons_block_one.six{
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    width: 0%;
+
+}
+.babyMongomons_block_one.active{
+    height: 90%;
+    width: 40% !important;
+    /* transform:scale(1.2); */
+    z-index: 999;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: auto!important; */
+
+    /* left: 50% !important;
+    position: relative;
+    transform: translateX(-50%) scale(1.23); */
+
+    left: 0% !important;
+    /* transform: scale(1.2); */
+}
+.babyMongomons_block_one.leftactive{
+    width: 30% !important;
+    left: 0% !important;
+}
+.babyMongomons_block_one.rightactive{
+    width: 30% !important;
+    left: 0% !important;
+}
+
+.babyMongomons_block_one_img{
+    position: relative;
+    /* height: 469px; */
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    transition: 2s;
+    border-radius: 7px;
+
+}
+
+.babyMongomons_cust_galery {
+    position: relative;
+    bottom:auto;
+    top: 0px
+
+}
+
+@media screen and (max-width: 1910px) {
+    .block_babyMongomons__content {
+        width: 1510px; 
+    }
+    .block_babyMongomons_body{
+        height: 648px;
+    }
+    /* .babyMongomons_block_one.two{
+        left: 37%;
+    }
+    .babyMongomons_block_one.three{
+        left: 69.1%;
+    } */
+}
+@media screen and (max-width: 1510px) {
+    .block_babyMongomons__content {
+        width: 1400px; 
+    }
+    .block_babyMongomons_body{
+        height: 608px;
+    }
+    /* .babyMongomons_block_one.two{
+        left: 35%;
+    }
+    .babyMongomons_block_one.three{
+        left: 70.25%;
+    } */
+    /* .babyMongomons_block_one.active {
+        transform: translateX(-50%) scale(1.1);
+    } */
+    /* .babyMongomons_block_one {
+        width: 419px;
+    } */
+}
+@media screen and (max-width: 1410px) {
+    .block_babyMongomons__content {
+        width: 1300px; 
+    }
+    .block_babyMongomons_body{
+        height: 568px;
+    }
+}
+@media screen and (max-width: 1310px) {
+    .block_babyMongomons__content {
+        width: 1200px; 
+    }
+    .block_babyMongomons_body{
+        height: 548px;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .block_babyMongomons__content {
+        width: 100%; 
+    }
+    .block_babyMongomons_body{
+        height: 508px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .block_babyMongomons__content {
+        width: 110%;
+    }
+    .block_babyMongomons_body{
+        height: 468px;
+    }
+    /* .babyMongomons_block_one.two{
+        left: 32%;
+    }
+    .babyMongomons_block_one.three{
+        left: 63%;
+    } */
+}
+
+@media screen and (max-width: 734px) {
+    .block_babyMongomons__content {
+        width: 120%;
+    }
+    .block_babyMongomons_body{
+        height: 428px;
+    }
+    /* .babyMongomons_block_one.two{
+        left: 21%;
+    }
+    .babyMongomons_block_one.three{
+        left: 52%;
+    }
+    .babyMongomons_block_one.one {
+        left: -20%;
+    } */
+    /* .babyMongomons_block_one.active {
+        transform: translateX(-50%) scale(1);
+    } */
+    /* .babyMongomons_block_one {
+        transform: scale(0.7);
+    } */
+}
+
+@media screen and (max-width: 580px) {
+    .block_babyMongomons__content {
+        width: 140%;
+    }
+    .block_babyMongomons_body{
+        height: 388px;
+    }
+    /* .babyMongomons_block_one.one {
+        left: -20%;
+    } */
+    /* .babyMongomons_block_one.active {
+        transform: translateX(-50%) scale(0.8);
+    }
+    .babyMongomons_block_one {
+        transform: scale(0.5);
+    } */
+}
+
+@media screen and (max-width: 490px) {
+    .block_babyMongomons__content {
+        width: 180%;
+    }
+    .block_babyMongomons_body{
+        height: 348px;
+    }
+    /* .babyMongomons_block_one.two{
+        left: 9%;
+    }
+    .babyMongomons_block_one.three{
+        left: 40%;
+    }
+    .babyMongomons_block_one.one {
+        left: -20%;
+    } */
+    /* .babyMongomons_block_one.active {
+        transform: translateX(-50%) scale(0.9);
+    }
+    .babyMongomons_block_one {
+        transform: scale(0.6);
+    } */
+}
+
+@media screen and (max-width: 395px) {
+    .block_babyMongomons__content {
+        /* width: 200%; */
+    }
+    /* .babyMongomons_block_one.two{
+        left: 3%;
+    }
+    .babyMongomons_block_one.three{
+        left: 34%;
+    }
+    .babyMongomons_block_one.one {
+        left: -45%;
+    }
+    .babyMongomons_block_one.active {
+        transform: translateX(-50%) scale(0.6);
+    }
+    .babyMongomons_block_one {
+        transform: scale(0.5);
+    } */
+}

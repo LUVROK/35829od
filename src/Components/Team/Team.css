@@ -28,7 +28,7 @@
     flex-direction: column;
 }
 .team_card_Title{
-    margin-top: 10px;
+    margin-top: 17px;
     text-align: center;
     font-size: 32px;
     font-family: 'Montserrat Alternates';
@@ -43,24 +43,38 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 93.4%;
-    padding-top: 7px;
+    padding-top: 17px;
 }
 .profile_photo{
     width: 100%;
     height: 300px;
     top: 5px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: contain !important;
     border-radius: 20px;
 }
 .Andrey{
-    background: url('https://i.postimg.cc/JhQJSpmS/photo-2022-03-10-00-12-54.jpg') no-repeat center;
+    background: url('https://mongomons.com/images/0r2o48girw.jpg') no-repeat center;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    border-radius: 20px;
 }
 .Nikita{
-    background: url('https://i.postimg.cc/05D5NTRR/photo-2022-02-28-23-31-35.jpg') no-repeat center;
+    background: url('https://mongomons.com/images/azdsu6dhet.jpg') no-repeat center;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    border-radius: 20px;
 }
 .Eugene{
-    background: url('https://i.postimg.cc/4dhfVMYc/photo-2022-02-28-23-09-18.jpg') no-repeat center;
+    background: url('https://mongomons.com/images/uqmpwv0wrw.jpg') no-repeat center;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    border-radius: 20px;
 }
 .team__container__item__bottom{
     display: flex;
@@ -100,10 +114,18 @@
 }
 
 .Anton{
-    background: url('https://i.postimg.cc/g0jkkrdN/photo-2022-03-06-00-22-01-2.jpg') no-repeat center;
+    background: url('https://mongomons.com/images/w7a5gz3yym.jpg') no-repeat center;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    border-radius: 20px;
 }
 .RTZ{
-    background: url('https://i.postimg.cc/Hstpwbk6/photo-2022-03-04-23-49-20.jpg') no-repeat center;
+    background: url('https://mongomons.com/images/a2azaec1ou.jpg') no-repeat center;
+    height: 300px;
+    width: 300px;
+    background-size: contain !important;
+    border-radius: 20px;
 }
 .team__wrap{
     margin: 0 auto;

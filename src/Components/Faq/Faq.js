@@ -38,27 +38,29 @@ const FaqComponents = () => {
                     "Your ideas and suggestions will be subject to voting, and then will be implemented by our team or outsourced people"
             }
 
-    ]};
-    return (<div className="faq zindex sect">
-                <div className="team__wrap block">
-                    <div className="faq_h1">
-                        FAQ
-                    </div>
-                        <Faq data={data}
-                             styles={{
-                            bgColor: "#68516D",
-                            titleTextColor: "#ffffff",
-                            rowTitleColor: "#ffffff",
-                            rowTitleTextSize: 'large',
-                            rowContentColor: "#ffffff",
-                            arrowColor: "white",
-                        }}
-                             config={{
-                                 arrowIcon: "+",
-                             }}/>
-                </div>
-            </div>
-        )
+        ]
     };
+    return (
+        <div className="faq zindex sect">
+            <div className="team__wrap1">
+                <div className="faq_h1">
+                    FAQ
+                </div>
+                <Faq data={data}
+                    styles={{
+                        bgColor: "#68516D",
+                        titleTextColor: "#ffffff",
+                        rowTitleColor: "#ffffff",
+                        rowTitleTextSize: 'large',
+                        rowContentColor: "#ffffff",
+                        arrowColor: "white",
+                    }}
+                    config={{
+                        arrowIcon: "+",
+                    }} />
+            </div>
+        </div>
+    )
+};
 
 export default FaqComponents;

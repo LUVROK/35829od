@@ -117,7 +117,9 @@ img { pointer-events: none;
     top: -20px;
 }
 
-
+/* .arrow_galer:first-of-type{
+    transform: scale(1,1);
+} */
 .arrow_galer{
     fill: transparent;
 }
@@ -154,12 +156,12 @@ padding: 20px;
 }
 
 .arrow_galer_fst{
-margin-left: auto;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: 20px;
 }
-    .arrow_galer_sc{
-        margin-right: auto;
-    }
+.arrow_galer_sc{
+    margin-left: 20px;
+}
 .galer_prev, .galer_next{
     padding: 15px;
 }
