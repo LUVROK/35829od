@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mongo-landing/static/css/main.a628a439.css",
-    "main.js": "/mongo-landing/static/js/main.1068f44b.js",
+    "main.js": "/mongo-landing/static/js/main.64e89c39.js",
     "static/js/787.9c29134c.chunk.js": "/mongo-landing/static/js/787.9c29134c.chunk.js",
     "static/media/BackgroundFace.png": "/mongo-landing/static/media/BackgroundFace.ef943a2caeaca884f7fa.png",
     "static/media/mongomon_baby_wrapper.png": "/mongo-landing/static/media/mongomon_baby_wrapper.470b6b5daa59fb250299.png",
@@ -20,11 +20,11 @@
     "static/media/Ubisoft.png": "/mongo-landing/static/media/Ubisoft.a6b57fab76bc076d0ff6.png",
     "index.html": "/mongo-landing/index.html",
     "main.a628a439.css.map": "/mongo-landing/static/css/main.a628a439.css.map",
-    "main.1068f44b.js.map": "/mongo-landing/static/js/main.1068f44b.js.map",
+    "main.64e89c39.js.map": "/mongo-landing/static/js/main.64e89c39.js.map",
     "787.9c29134c.chunk.js.map": "/mongo-landing/static/js/787.9c29134c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a628a439.css",
-    "static/js/main.1068f44b.js"
+    "static/js/main.64e89c39.js"
   ]
 }
